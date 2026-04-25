@@ -284,5 +284,26 @@ AOS.init({
   once: true,
 });
 
-})(jQuery);
+/*================================================================= 
+    Stop YouTube iframe when modal is closed or carousel slides
+==================================================================*/
+function stopIframes(container) {
+    var $iframe = $(container).find('iframe');
+    if ($iframe.length) {
+        $iframe.each(function() {
+            var src = $(this).attr('src');
+            $(this).attr('src', '');
+            $(this).attr('src', src);
+        });
+    }
+}
 
+$('.modal').on('hidden.bs.modal', function () {
+    stopIframes(this);
+});
+
+$('.carousel').on('slide.bs.carousel', function () {
+    stopIframes(this);
+});
+
+})(jQuery);
