@@ -742,19 +742,15 @@ h6 {
 .portfolio-section .box:before,
 .portfolio-section .box:after {
   content: '';
-  background: #fd4312;
-  height: 50%;
+  background: linear-gradient(to top, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.4) 60%, transparent 100%);
+  height: 100%;
   width: 100%;
-  opacity: 0.8;
+  opacity: 1;
   position: absolute;
-  top: -50%;
+  top: 0;
   left: 0;
   z-index: 1;
   transition: all 0.3s ease-in 0s;
-}
-.portfolio-section .box:after {
-  top: auto;
-  bottom: -50%;
 }
 .portfolio-section .box img {
   width: 100%;
@@ -764,15 +760,16 @@ h6 {
 }
 .portfolio-section .box .box-content {
   color: #fff;
-  text-align: center;
+  text-align: left;
   width: 100%;
-  opacity: 0;
+  opacity: 1;
   position: absolute;
-  bottom: 40%;
+  bottom: 0px;
   left: 0;
   z-index: 2;
   transition: all 0.3s ease-out 0.1s;
-  padding: 36px;
+  padding: 24px;
+  padding-bottom: 70px;
 }
 .portfolio-section .box .title {
   font-size: 21px;
@@ -793,42 +790,38 @@ h6 {
 .portfolio-section .box .icon-box {
   padding: 0;
   margin: 0;
-  opacity: 0;
-  transform: translate(-50%, -50%);
+  opacity: 1;
   position: absolute;
-  left: 50%;
-  top: 70%;
+  left: 24px;
+  bottom: 24px;
   z-index: 2;
   transition: all 0.3s ease-out 0.1s;
 }
 .portfolio-section .box .icon-box a {
-  width: 48px;
-  height: 48px;
-  line-height: 49px;
-  background: rgba(255, 255, 255, 0.6);
-  display: block;
+  padding: 8px 16px;
+  background: #fd4312;
+  display: inline-block;
   text-align: center;
-  border-radius: 50%;
+  border-radius: 4px;
   transition: 0.3s;
-  color: #222;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
 }
 .portfolio-section .box .icon-box a:hover {
   background: #ffffff;
   color: #fd4312;
 }
 .portfolio-section .box:hover:before {
-  top: 0;
-}
-.portfolio-section .box:hover:after {
-  bottom: 0;
-}
-.portfolio-section .box:hover .box-content {
   opacity: 1;
-  bottom: 0;
+}
+
+.portfolio-section .box:hover .box-content {
+  bottom: 0px;
 }
 .portfolio-section .box:hover .icon-box {
-  opacity: 1;
-  top: 50%;
+  bottom: 24px;
 }
 .portfolio-section .box .icon li {
   margin: 0 3px;
