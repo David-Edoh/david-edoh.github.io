@@ -186,7 +186,7 @@ const portfolioItems = [
     buttonHtml: '<i class="bi bi-plus-lg"></i>View Project',
     modalTitle: 'Fotisia (2024)',
     links: [
-      { text: 'Link (published)', href: 'https://fotisia.com' }
+      { text: 'Link (published)', href: 'https://clinquant-pika-30f41d.netlify.app' }
     ],
     description: 'Fotisia is an edtech gamified platform that offers bitesize learning modules for career development. The app provides interactive lessons, quizzes, and challenges to help users acquire new skills and advance their careers in a fun and engaging way. With a focus on user experience and gamification, Fotisia aims to make learning enjoyable and effective for professionals looking to upskill.',
     meta: [
@@ -322,7 +322,7 @@ const portfolioItems = [
     buttonHtml: 'View Project',
     modalTitle: 'Fotisia (2024)',
     links: [
-      { text: 'Link (published)', href: 'https://fotisia.com' }
+      { text: 'Link (published)', href: 'https://clinquant-pika-30f41d.netlify.app' }
     ],
     description: 'Fotisia is an edtech gamified platform that offers bitesize learning modules for career development. The app provides interactive lessons, quizzes, and challenges to help users acquire new skills and advance their careers in a fun and engaging way. With a focus on user experience and gamification, Fotisia aims to make learning enjoyable and effective for professionals looking to upskill.',
     meta: [
