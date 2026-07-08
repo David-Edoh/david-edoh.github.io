@@ -92,6 +92,36 @@ const portfolioItems = [
     ]
   },
   {
+    id: 'boju-boju',
+    slug: 'Boju Boju',
+    modalId: 'portfolioModalBojuBoju',
+    carouselId: 'carouselBojuBoju',
+    category: 'Mobile Game',
+    title: 'Boju Boju',
+    tags: ['game-dev', 'mobile'],
+    thumb: 'image/boju-boju/hero.PNG',
+    buttonHtml: '<i class="bi bi-plus-lg"></i>View Project',
+    modalTitle: 'Boju Boju (2026)',
+    links: [
+      { text: 'Download APK (published)', href: 'https://boju-boju.netlify.app' }
+      // { text: 'Play Store Link (published)', href: 'https://play.google.com/store/apps/details?id=com.Fotisia.boju_boju' },
+      // { text: 'App Store Link (published)', href: 'https://apps.apple.com/us/app/boju-boju/id6762066716' }
+    ],
+    description: 'Boju Boju is a famous nigerian hide and seek game playeed in the rural areas. This is a mobile game adaptation of the traditional game, where players take turns hiding and seeking in a virtual environment. The game features a multiplayer, immersive gameplay, and a variety of hiding spots and obstacles that challenge players to outsmart their opponents.',
+    meta: [
+      { label: 'Project Type', value: 'Mobile Game' },
+      { label: 'Duration', value: '6 months' },
+      { label: 'Task', value: '3d modelling, c# programming' },
+      { label: 'Tools', value: 'Unity3d, Autodesk Maya, Photoshop, C#' }
+    ],
+    slides: [
+      { type: 'iframe', src: 'https://www.youtube.com/embed/IWRQnVjrjxM?controls=0', title: 'Boju Boju' },
+      { type: 'image', src: 'image/boju-boju/hero.PNG', alt: 'portfolio image' },
+      { type: 'image', src: 'image/boju-boju/hero2.PNG', alt: 'portfolio image' },
+
+    ]
+  },
+  {
     id: 'cantaball',
     slug: 'cantaball',
     modalId: 'portfolioModalCantaBall',
