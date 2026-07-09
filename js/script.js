@@ -160,7 +160,7 @@ const portfolioItems = [
     links: [
       { text: 'Web Demo (Link)', href: 'https://scribe-frontend-psi.vercel.app/' }
     ],
-    description: 'The Scribe is a web-based AI writing assistant purpose-built for Christian authors, specifically apostolic, prophetic, and Spirit-filled ministry voices. It guides authors through a structured interview to capture their theological voice, then generates full manuscript drafts in their exact style. There should be an integrated AI assistant to the app in a creative and functional way.',
+    description: 'The Scribe is a web-based AI writing assistant purpose-built for Christian authors, specifically apostolic, prophetic, and Spirit-filled ministry voices. It guides authors through a structured interview to capture their theological voice, then generates full manuscript drafts in their exact style. It includes an integrated AI assistant that enhances the writing experience in a creative and functional way.',
     meta: [
       { label: 'Project Type', value: 'Fullstack Development' },
       { label: 'Duration', value: '2 weeks' },
